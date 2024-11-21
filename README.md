@@ -1,4 +1,4 @@
-# Open Operating System BY Kuunal Prakjapati
+# Open Operating System BY Kuunal Prajapati
 
 * It is only a learing project not for production.
 * You can try it without any permissions.
@@ -45,3 +45,7 @@ You will get an iso file. You can either make a bootable CD/DVD or Pendrive/Flas
 # License
 You are free to use it at your own risk and make changes for your own only. <br>
 And I don't allow any commercial use of this oprating sytem. This is only to prevent us from any troble.
+
+> [!WARNING]
+> DON'T USE ANY ISO FILE FROM THE REPO ITSELF UNTILL YOU HAVE CREATED IT.
+> THESE ISOS ARE VULNERABLE SO DONT TRY IT UNTILL IT IS IN RELEASE.
