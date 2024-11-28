@@ -1,4 +1,4 @@
-# Open Operating System BY Kuunal Prakjapati
+# Open Operating System BY Kuunal Prajapati
 
 * It is only a learing project not for production.
 * You can try it without any permissions.
