@@ -3,7 +3,7 @@ GPPPARAMS = -m32 -fno-use-cxa-atexit -nostdlib -fno-builtin -fno-rtti -fno-excep
 ASPARAMS = --32
 LDPARAMS = -melf_i386
 
-objects = loader.o kernel.o
+objects = loader.o kernel.o gdt.o
 
 %.o: %.cpp
 	gcc $(GPPPARAMS) -o $@ -c $<
@@ -29,5 +29,8 @@ mykernel.iso: mykernel.bin
 	echo '	multiboot /boot/mykernel.bin' >> iso/boot/grub/grub.cfg
 	echo '	boot' >> iso/boot/grub/grub.cfg
 	echo '}' >> iso/boot/grub/grub.cfg
-	grub-mkrescue --output=$@ iso
+	grub-mkrescue --output=$@$(date) iso
 	rm -rf iso
+
+run: mykernel.iso
+	cp mykernel.iso /mnt/c/Users/Dell/Documents/ISOs/
