@@ -32,15 +32,16 @@ These are only few but i recommned you to install comlete gcc toolchain to get a
 
 ## How To Use
 
-Just go and open Makefile and  run the all mmake commands in chronological  order. <br>
-
+Just go and run the command make run. <br>
+Also keep in mind to change the Makefile to get iso in desire directory. <br>
+This directory is according to my PC so change it according to your PC and it's environment to avoid any problem.<br>
 After executing last command 
 ```bash
-make mykernel.iso
+make run
 ```
 You will get an iso file. You can either make a bootable CD/DVD or Pendrive/FlashDrive (not Recommecnded) or just create a virtual machine to test the operating system. 
 >**Note** :<br> 
-> *First compile all the cpp files then loader file.After it create the mykernel.bin and the in last run the make kernel.iso*
+> *If it does not create iso file check your environment and Makefile . Happy Coding😁*
 
 # License
 You are free to use it at your own risk and make changes for your own only. <br>
